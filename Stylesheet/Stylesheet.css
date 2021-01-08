@@ -1,21 +1,18 @@
 body{
     font-family: 'Rubik', sans-serif;
     text-align: justify;
-    padding: 45px;
     margin: 0;
-    height: 500px;
     }
 .Half-width{
-    width: 45%;
+    width: 44%;
     float: left;
     padding: 2.5%;
-
-}
+    }
 .Half-width img{
-    width: 100%;
+    width: 70%;
 }
 .Head-line{
-    line-height: 35%;
+    line-height: 30%;
 }
 .Hello{
     font-family: 'Mukta', sans-serif;
@@ -25,12 +22,9 @@ body{
 }
 section{
     height: 500px;
-    padding-bottom: 100px;
 }
 .top-banner{
-    background-image: url(Imagesicon/top-banner.png);
-    background-repeat: no-repeat;
-    background-position: left;
+    background-image: url("Images/top-banner.png");
 }
 .Head-line-himel{
     color: rgb(9, 248, 248);
@@ -55,26 +49,11 @@ p{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(40deg, rgb(33, 233, 93), rgb(2, 145, 57));
+    background-image: linear-gradient(40deg, #21e95d, #029139);
     padding: 10px 20px;
     border-radius: 10px;
     color: whitesmoke;
     font-weight: 700;
-}
-.experience-area{
-    background-image: url(images/exp-bg.png);
-    background-repeat: no-repeat;
-    background-position: left 35%;
-}
-#full-stack{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, #2b3ff7, #04ac58); 
-    border-image-slice: 1;
-}
-#baby-web{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, lightSalmon, tomato);
-    border-image-slice: 1;
 }
 .btn {
     background-image: linear-gradient(50deg, #ff3232, #f58b8b);
@@ -85,4 +64,18 @@ p{
     font-size: 15px;
     border-radius: 10px;
 
+}
+.Thumbnail-Headline{
+    font-size: 35px;
+    text-align: center;
+}
+
+.Thumbnail{
+    width: 25%;
+    padding: 3%;
+    float: left;
+    align-items: center;
+}
+.Thumbnail img{
+    width: 100%;
 }
